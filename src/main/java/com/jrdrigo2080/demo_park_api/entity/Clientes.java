@@ -39,6 +39,7 @@ public class Clientes implements Serializable {
     @Override
     public int hashCode() {
         return Objects.hashCode(id);
+
     }
 
     @Override
